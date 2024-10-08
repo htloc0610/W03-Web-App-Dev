@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/build.css" />
+    <title>Tailwind Website</title>
+  </head>
+  <body class="bg-img w-11/12 md:w-4/5 mx-auto mt-2">
+    <div class="envelope bg-white rounded-3xl text-gray-500">
+      <!-- Header -->
+      <header class="header text-xl pt-8 md:px-20">
+        <div
+          class="navigation flex flex-col md:flex-row justify-between items-center"
+        >
+          <!-- Logo -->
+          <div class="logo flex flex-col md:flex-row items-center">
+            <div class="flex flex-col justify-between items-center">
+              <img class="img" src="./src/img/logo.png" alt="Logo" />
+              <img src="./src/img/logo-shadow.png" alt="logo-shadow" />
+            </div>
+            <span class="name ml-5 uppercase text-sm md:text-2xl"
+              ><strong>x-tech</strong>landing</span
+            >
+          </div>
+          <!-- Information -->
+          <div class="infor uppercase text-sm md:text-2xl">
+            <span class="number"
+              ><strong>call now!</strong> 1-800-123-4567</span
+            >
+          </div>
+        </div>
+      </header>
+      <!-- Main -->
+      <main class="main">
+        <!-- Content -->
+        <div class="content font-semibold p-4">
+          <!-- Title -->
+          <div class="title mt-20 flex flex-col justify-between items-center">
+            <h1 class="text-3xl text-black text-center">
+              The perfect way to convert your traffic into sales.
+            </h1>
+            <!-- Img -->
+            <img class="mt-10" src="./src/img/showcase.png" alt="showcase" />
+          </div>
+
+          <!-- Button first -->
+          <div class="bottom flex items-center justify-center mt-12 relative">
+            <!-- Button -->
+            <button
+              class="bg-gradient-to-b from-blue-200 to-blue-400 px-10 py-2 rounded-full"
+            >
+              <h2 class="uppercase font-bold text-xl text-blue-950">
+                Give it a try!
+              </h2>
+              <span class="text-base text-blue-900"
+                >Get 30 days access to the fully operation product</span
+              >
+            </button>
+            <!-- Shadow -->
+            <div class="absolute top-20 shadown"></div>
+            <!-- Absolute -->
+            <div class="absolute top-1/3 right-14 hidden 2xl:inline-flex">
+              <span class="font-normal text-xl text-blue-600 italic">
+                or check out the features
+              </span>
+              <img src="./src/img/arrow1.png" alt="arrow1" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Product -->
+        <divz
+          class="products p-5 md:p-20 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-6 mt-8 text-xs md:text-base"
+        >
+          <!-- Item1 -->
+          <div class="item flex gap-3">
+            <img
+              class="w-20 h-20 bg-cover"
+              src="./src/img/desktop.png"
+              alt="desktop"
+            />
+            <div class="content">
+              <h2 class="text-xl text-black font-bold">Quick and easy</h2>
+              <p class="text-justify">
+                Ma quande lingues coalesce, li grammatica del resultant lingue
+                es plu simplic e regulari quam ti del coalescent lingues. Li nov
+                lingua franca va esser plu simplic e regulari.
+              </p>
+            </div>
+          </div>
+          <!-- Item2 -->
+          <div class="item flex gap-3">
+            <img
+              class="w-20 h-20 bg-cover"
+              src="./src/img/harddrive.png"
+              alt="harddrive"
+            />
+            <div class="content">
+              <h2 class="text-xl text-black font-bold">Less risky</h2>
+              <p class="text-justify">
+                Ma quande lingues coalesce, li grammatica del resultant lingue
+                es plu simplic e regulari quam ti del coalescent lingues. Li nov
+                lingua franca va esser plu simplic e regulari.
+              </p>
+            </div>
+          </div>
+          <!-- Item3 -->
+          <div class="item flex gap-3">
+            <img
+              class="w-20 h-20 bg-cover"
+              src="./src/img/tools.png"
+              alt="tools"
+            />
+            <div class="content">
+              <h2 class="text-xl text-black font-bold">Support - 24h</h2>
+              <p class="text-justify">
+                Ma quande lingues coalesce, li grammatica del resultant lingue
+                es plu simplic e regulari quam ti del coalescent lingues. Li nov
+                lingua franca va esser plu simplic e regulari.
+              </p>
+            </div>
+          </div>
+          <!-- Item4 -->
+          <div class="item flex gap-3">
+            <img
+              class="w-20 h-20 bg-cover"
+              src="./src/img/books.png"
+              alt="books"
+            />
+            <div class="content">
+              <h2 class="text-xl text-black font-bold">
+                Well written help file
+              </h2>
+              <p class="text-justify">
+                Ma quande lingues coalesce, li grammatica del resultant lingue
+                es plu simplic e regulari quam ti del coalescent lingues. Li nov
+                lingua franca va esser plu simplic e regulari.
+              </p>
+            </div>
+          </div>
+          <!-- Item5 -->
+          <div class="item flex gap-3">
+            <img
+              class="w-20 h-20 bg-cover"
+              src="./src/img/camera.png"
+              alt="camera"
+            />
+            <div class="content">
+              <h2 class="text-xl text-black font-bold">
+                Import your own photos
+              </h2>
+              <p class="text-justify">
+                Ma quande lingues coalesce, li grammatica del resultant lingue
+                es plu simplic e regulari quam ti del coalescent lingues. Li nov
+                lingua franca va esser plu simplic e regulari.
+              </p>
+            </div>
+          </div>
+          <!-- Item6 -->
+          <div class="item flex gap-3">
+            <img
+              class="w-20 h-20 bg-cover"
+              src="./src/img/mouse.png"
+              alt="mouse"
+            />
+            <div class="content">
+              <h2 class="text-xl text-black font-bold">User friendly design</h2>
+              <p class="text-justify">
+                Ma quande lingues coalesce, li grammatica del resultant lingue
+                es plu simplic e regulari quam ti del coalescent lingues. Li nov
+                lingua franca va esser plu simplic e regulari.
+              </p>
+            </div>
+          </div>
+        </divz>
+
+        <!-- Comment -->
+        <div class="comment px-8 text-xs md:text-base">
+          <div class="main">
+            <h class="text-blue-600 italic text-lg md:text-2xl">
+              See what our customers are saying...
+            </h>
+            <div class="relative">
+              <p
+                class="text-justify after-content bg-gray-300 text-black mt-3 p-9 rounded-xl"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
+                possimus ea quia error blanditiis illo et quas quaerat. Numquam
+                voluptate ipsa dolor minus fugit consectetur quibusdam deserunt,
+                possimus illo. Porro! Non omnis nemo, repudiandae exercitationem
+                commodi recusandae, animi laudantium ex, adipisci vero beatae.
+                Debitis iste voluptate numquam fuga, voluptates perferendis
+                dicta fugit aliquid veritatis dolore id est totam ratione
+                dolores! Nemo voluptatem cumque quasi eius animi fuga eveniet
+                ullam est aperiam iusto! Reiciendis iste expedita corrupti
+                impedit cupiditate quasi adipisci vero neque aspernatur,
+                excepturi nam tenetur maiores ipsum facilis temporibus!
+              </p>
+              <!-- Under -->
+              <style>
+                .after-content::after {
+                  content: "";
+                  width: 30px;
+                  height: 30px;
+                  display: inline-block;
+                  position: absolute;
+                  background-color: #e5e7eb;
+                  margin-top: 10px;
+                  bottom: -30px;
+                  right: 60px;
+                  clip-path: polygon(0 0, 100% 0, 0 100%);
+                }
+              </style>
+            </div>
+            <div class="relative">
+              <span class="text-2xl absolute right-8 md:right-32 top-6"
+                >Steve Jobs, Apple</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Button last -->
+        <div class="bottom flex items-center justify-center mt-14 relative">
+          <!-- Span -->
+          <div class="absolute left-20 right-0 hidden 2xl:inline-flex p-6">
+            <img src="./src/img/arrow2.png" alt="arrow2" />
+            <span class="text-xl text-blue-600 mt-12 italic">
+              ...don't wait and
+            </span>
+          </div>
+          <!-- Button -->
+          <button
+            class="bg-gradient-to-b from-blue-200 to-blue-400 px-10 py-2 rounded-full mt-10"
+          >
+            <h2 class="uppercase font-bold text-xl text-blue-950">
+              Give it a try!
+            </h2>
+            <!-- Span -->
+            <span class="text-base text-blue-900"
+              >Get 30 days access to the fully operation product</span
+            >
+          </button>
+          <!-- Shadow -->
+          <div class="absolute top-28 shadown"></div>
+        </div>
+      </main>
+      <!-- Footer -->
+      <footer class="bg-img-footer text-black block mb-10">
+        <!-- Top -->
+        <div
+          class="box-border top grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 px-12 mt-24 mx-auto gap-4 pt-8 text-sm md:text-base"
+        >
+          <!-- 1 -->
+          <div class="contact">
+            <h2 class="font-bold">Contact</h2>
+            <span
+              >Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+              diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+              aliquam</span
+            >
+          </div>
+          <!-- 2 -->
+          <div class="map flex items-center justify-center">
+            <img src="./src/img/map.png" alt="map" />
+          </div>
+          <!-- 3 -->
+          <div class="Design">
+            <h2 class="font-bold">Design details</h2>
+            <span
+              >Ut wisi enim ad minim veniam, quis nostrud exerci tation
+              ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+              consequat.</span
+            >
+          </div>
+          <!-- 4 -->
+          <div class="connect">
+            <h2 class="font-bold">Stay connected</h2>
+            <div class="link flex gap-2 mt-2">
+              <img src="./src/img/skype.png" alt="skype" />
+              <img src="./src/img/linkedin.png" alt="linkedin" />
+              <img src="./src/img/facebook.png" alt="facebook" />
+              <img src="./src/img/digg.png" alt="digg" />
+              <img src="./src/img/deviantart.png" alt="deviantart" />
+              <img src="./src/img/twitter.png" alt="twitter" />
+            </div>
+          </div>
+        </div>
+        <!-- Bottom -->
+        <div
+          class="bg-color bottom flex flex-col md:flex-row justify-between px-6 my-2 py-2 text-xs md:text-base"
+        >
+          <p>Copyright © 2011 - Shegy - All rights reserved</p>
+          <div class="inline-flex justify-between items-center w-30 xl:w-60">
+            <span>Privacy policy</span>
+            <span>|</span>
+            <span>Regulation</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
